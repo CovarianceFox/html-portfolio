@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio Name</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="./banner.png"/>
+    <h1>Personal Portfolio</h1>
+    <nav>
+      <ul class="sections">
+        <li><a href="#section1">Section 1: Digital Deckworks</a></li>
+        <li><a href="#section2">Section 2: Covariance</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="section1">
+      <h2>Digital Deckworks</h2>
+      <ul class="tabs">
+        <li><a href="#tab1">Dashboard</a></li>
+        <li><a href="#tab2">Misc</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <article id="tab1">
+
+          <p>Place your Digital Deckworks (Dashboard) content here.</p>
+
+        </article>
+        <article id="tab2">
+
+          <p>Place your Digital Deckworks (Misc) content here.</p>
+
+        </article>
+      </div>
+    </section>
+
+    <section id="section2">
+      <h2>Covariance</h2>
+      <ul class="tabs">
+        <li><a href="#tab3">Creative Writing</a></li>
+        <li><a href="#tab4">2D Platformer</a></li>
+        <li><a href="#tab5">ARTSCHOOL</a></li>
+        <li><a href="#tab6">RtBook</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <article id="tab3">
+          <h3>Creative Writing</h3>
+          <ul>
+            <li><a href="#subtab1">WordPress: Meadows of Aera</a></li>
+          </ul>
+        </article>
+        <article id="tab4">
+          <h3>2D Platformer (GameDev in Godot Engine)</h3>
+          <ul>
+            <li><a href="#subtab2">Pixel Art Gallery</a></li>
+            <li><a href="#subtab3">Assets (Animation and Tilesets)</a></li>
+          </ul>
+        </article>
+        <article id="tab5">
+          <h3>ARTSCHOOL</h3>
+          <ul>
+            <li><a href="#subtab4">courses+</a></li>
+          </ul>
+        </article>
+        <article id="tab6">
+          <h3>RtBook</h3>
+          <p>Place your RtBook content here.</p>
+        </article>
+      </div>
+    </section>
+
+    <h1>Journal</h1>
+    <div id="messages"></div>
+    <div class="input-container">
+      <input type="text" id="message-input" placeholder="Write your journal entry...">
+      <button id="add-button">Add Entry</button>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
